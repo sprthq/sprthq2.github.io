@@ -714,6 +714,7 @@ td, th {
 
 .container.fullwidth {
   width: 100%;
+  padding-top: 50px;
 }
 
 .container.no-padding {
@@ -2038,17 +2039,19 @@ nav a:hover {
 
 .banner-area {
   background: #fff;
+  padding-top: 200px;
 }
 
 @media (max-width: 767px) {
   .banner-area .fullscreen {
     height: 800px !important;
+	padding-top:50px;
   }
 }
 
 @media (max-width: 767px) {
   .banner-content {
-    margin-top: 100px;
+    margin-top: 200px;
   }
 }
 
