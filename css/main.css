@@ -2628,3 +2628,8 @@ a.nav2 {
   display: inline-block;
  color: #f11515;
 }
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }
+}
