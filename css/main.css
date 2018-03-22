@@ -714,7 +714,6 @@ td, th {
 
 .container.fullwidth {
   width: 100%;
-  padding-top: 50px;
 }
 
 .container.no-padding {
@@ -2039,19 +2038,24 @@ nav a:hover {
 
 .banner-area {
   background: #fff;
+  padding-top: 100px;
+}
+
+.banner-area2 {
+  background: #fff;
   padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
   .banner-area .fullscreen {
     height: 800px !important;
-	padding-top:50px;
   }
 }
 
 @media (max-width: 767px) {
   .banner-content {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 }
 
@@ -2486,6 +2490,7 @@ nav a:hover {
 
 .footer-widget-area .footer-nav li {
   margin-top: 8px;
+  color: #fff;
 }
 
 .footer-widget-area .footer-nav li a {
@@ -2576,7 +2581,7 @@ nav a:hover {
 }
 
 .about-generic-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: #3e8ece;
 }
 
 .about-generic-area .container {
@@ -2616,7 +2621,8 @@ nav a:hover {
 }
 a.nav2 {
  margin: 5px 25px;
-  
+  font-weight: bold;
+  font-size: 12pt;
   word-wrap: normal;
   display: inline-block;
  color: #f11515;
