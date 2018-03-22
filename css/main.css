@@ -1844,12 +1844,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-header {
-  padding: 20px 60px;
-  position: absolute;
+  padding: 0px 20px;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9;
+  background-color: #fff;
 }
 
 @media (max-width: 1199px) {
@@ -1860,7 +1861,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   .default-header {
-    padding: 20px 15px;
+    padding: 5px 15px;
   }
 }
 
@@ -2038,12 +2039,12 @@ nav a:hover {
 
 .banner-area {
   background: #fff;
-  padding-top: 100px;
+  padding-top: 5px;
 }
 
 .banner-area2 {
   background: #fff;
-  padding-top: 200px;
+  padding-top: 5px;
   padding-bottom: 100px;
 }
 
@@ -2055,7 +2056,7 @@ nav a:hover {
 
 @media (max-width: 767px) {
   .banner-content {
-    margin-top: 100px;
+    margin-top: 5px;
   }
 }
 
