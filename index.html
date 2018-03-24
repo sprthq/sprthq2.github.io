@@ -72,6 +72,9 @@
 	.buttonstyle {
 	margin-top: -30px;
 	}
+	.buttonstyle2 {
+	margin-top: 575px;
+	}	
 	.moveit{
 	margin-top: -50px;
 	margin-BOTTOM: 50px;
@@ -97,8 +100,29 @@
 	margin:auto;
 	background-position: center;
 	background-color:#c0b9aa;
-	height:350px;
-	
+	height:350px;	
+	}
+	.works3 {
+	background-image:url("img/worksvert.gif");
+	background-repeat: no-repeat;
+	margin:auto;
+	background-position: center;
+	background-color:#c0b9aa;
+	height:720px;	
+	}
+	@media (min-width:992px) {
+		.desktop-only {
+			display:block !important;
+		}
+	}
+	@media (max-width: 991px) {
+		.mobile-only {
+			display:block !important;
+		}
+	 
+		.desktop-only {
+			display:none !important;
+		}
 	}
   </style>
 </head>
@@ -141,21 +165,11 @@
 </div>
 <!-- End Conversion -->
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center about works2">    
+<div class="container-fluid bg-3 text-center about works3 mobile-only">    
   <div class="row">
-		<!-- <img src="img/works.gif" class="img-responsive margin2" style="width:100% height: auto; width: auto; margin:auto;" alt="Image">
-		-->
-			<!--
-			<div class="col-sm-4 moveit">
-			  <img src="img/van.gif" class="img-responsive margin" style="width:100% height:250px; width:250px; margin:auto;" alt="Image">
-			</div>
-			<div class="col-sm-4 moveit">			
-			  <img src="img/washer.gif" class="img-responsive margin" style="width:100% height:250px; width:250px; margin:auto;" alt="Image">
-			</div>
-			<div class="col-sm-4 moveit">		
-			  <img src="img/hands.gif" class="img-responsive margin" style="width:100% height:250px; width:250px; margin:auto;" alt="Image">
-			</div>
-			-->
+  	<a href="javascript:void( window.open( 'https://form.jotform.com/80796592901164', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">
+		<img src="img/button4.gif" class="img-responsive img-circle margin buttonstyle2" style="display:inline" alt="Bird" width="350" height="350">
+	</a>
   </div>
 </div>
 <!-- Quotes (Grid) -->
